@@ -69,7 +69,7 @@
                         <kbd id="b" class="kbd">b</kbd>
                         <kbd id="n" class="kbd">n</kbd>
                         <kbd id="m" class="kbd">m</kbd>
-                        <kbd id="/" class="kbd">/</kbd>
+
                       </div>
                 </div>
                 <!--Keyboard End-->
@@ -78,27 +78,27 @@
                     <button class="btn rounded-full bg-purple-500 text-white px-2">
                         Life
                         <img src="images/Group 23.png" alt="">
-                        <span>1</span>
+                        <span  id="current-life">5</span>
                       </button>
 
                       <button class="btn rounded-full bg-purple-800 text-white px-2">
                         Score
                         <img src="images/monetization_on.png" alt="">
-                        <span>1</span>
+                        <span id="current-score">0</span>
                       </button>
                 </div>
 
         </section>
     <!--Play ground-end-->
         <!--Score-->
-        <section class="score flex justify-center items-center min-h-screen hidden">
+        <section id="final-score" class="score flex justify-center items-center min-h-screen hidden">
             <div class="text-white text-center space-y-6 bg-[#FFFFFF33] p-4 rounded-lg">
                 <h1 class="text-8xl">
                     <span class="font-extrabold">Score:</span>
-                    <span>0</span>
+                    <span id="last-score">0</span>
             </h1>
             <p>Practice Make you a pro</p>
-            <button class="btn">Play Again</button>
+            <button onclick="play()" class="btn">Play Again</button>
            
         </div>
         </section>
